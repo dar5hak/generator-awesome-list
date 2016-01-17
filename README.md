@@ -1,2 +1,2 @@
 # generator-awesome-list
-Yeoman generator for GitHub Awesome Lists :sunglasses:
+Yeoman generator for GitHub awesome lists :sunglasses:
