@@ -1,0 +1,42 @@
+{
+  "name": "generator-awesome-list",
+  "version": "1.0.0b",
+  "description": "Yeoman generator for GitHub awesome lists 😎",
+  "files": [
+    "app"
+  ],
+  "scripts": {
+    "test": "lab"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dar5hak/generator-awesome-list.git"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "github",
+    "awesome",
+    "curated",
+    "list"
+  ],
+  "author": "Darshak Parikh",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dar5hak/generator-awesome-list/issues"
+  },
+  "homepage": "https://github.com/dar5hak/generator-awesome-list#readme",
+  "dependencies": {
+    "git-config": "0.0.7",
+    "title-case": "^1.1.2",
+    "yeoman-generator": "^0.22.4"
+  },
+  "devDependencies": {
+    "lab": "^8.0.2",
+    "xo": "^0.12.1",
+    "yeoman-assert": "^2.1.1",
+    "yeoman-test": "^1.0.0"
+  }
+}
