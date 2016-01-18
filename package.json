@@ -6,7 +6,7 @@
     "app"
   ],
   "scripts": {
-    "test": "lab"
+    "test": "xo && lab -c -m 0 -r tap"
   },
   "repository": {
     "type": "git",
