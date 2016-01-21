@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/dar5hak/generator-awesome-list.git"
   },
+  "preferGlobal": true,
   "engines": {
     "node": ">=4.0.0"
   },
