@@ -22,6 +22,8 @@ This stuff is heavily stolen from [Sindre Sorhus](https://github.com/sindresorhu
 - `contributing.md` skeleton
 - a simple `.gitattributes` to make contributing easier
 
+![Screenshot of generator running](screenshot.png)
+
 ## License
 
 Apache-2.0 © [Darshak Parikh](github.com/dar5hak)
