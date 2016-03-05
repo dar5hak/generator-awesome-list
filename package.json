@@ -35,8 +35,8 @@
     "yeoman-generator": "^0.22.4"
   },
   "devDependencies": {
-    "lab": "^8.2.0",
-    "xo": "^0.12.1",
+    "lab": "^10.2.0",
+    "xo": "^0.13.0",
     "yeoman-assert": "^2.1.1",
     "yeoman-test": "^1.0.0"
   }
