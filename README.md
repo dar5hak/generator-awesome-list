@@ -26,4 +26,4 @@ This stuff is heavily stolen from [Sindre Sorhus](https://github.com/sindresorhu
 
 ## License
 
-Apache-2.0 © [Darshak Parikh](github.com/dar5hak)
+Apache-2.0 © [Darshak Parikh](https://github.com/dar5hak)
