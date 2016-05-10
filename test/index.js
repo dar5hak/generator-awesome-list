@@ -1,8 +1,10 @@
+const path = require('path');
+
 const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
+
 const Lab = require('lab');
 const lab = exports.lab = Lab.script();
-const path = require('path');
 
 lab.before(done => {
 	helpers.run(path.join(__dirname, '../app'))
