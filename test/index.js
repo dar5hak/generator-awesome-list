@@ -1,9 +1,8 @@
 const path = require('path');
-
 const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
-
 const Lab = require('lab');
+
 const lab = exports.lab = Lab.script();
 
 lab.before(done => {
