@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "lab": "^11.0.0",
-    "xo": "^0.16.0",
+    "xo": "^0.17.0",
     "yeoman-assert": "^2.1.1",
     "yeoman-test": "^1.0.0"
   }
