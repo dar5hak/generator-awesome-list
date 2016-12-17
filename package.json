@@ -32,7 +32,7 @@
   "dependencies": {
     "git-config": "0.0.7",
     "title-case": "^2.1.0",
-    "yeoman-generator": "^0.24.1"
+    "yeoman-generator": "^1.0.0"
   },
   "devDependencies": {
     "lab": "^11.2.0",
