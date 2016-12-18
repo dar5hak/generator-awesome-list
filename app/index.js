@@ -1,8 +1,8 @@
 const gitConfig = require('git-config');
-const generators = require('yeoman-generator');
+const Generator = require('yeoman-generator');
 const titleCase = require('title-case');
 
-module.exports = generators.Base.extend({
+module.exports = Generator.extend({
 	initializing: function () {
 		this.props = {};
 		this.defaults = {
