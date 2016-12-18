@@ -6,7 +6,7 @@
     "app"
   ],
   "scripts": {
-    "test": "xo && lab"
+    "test": "xo && lab --timeout 0"
   },
   "repository": {
     "type": "git",
