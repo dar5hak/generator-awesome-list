@@ -6,7 +6,7 @@
     "app"
   ],
   "scripts": {
-    "test": "xo && markdownlint app/templates/*.md && lab --timeout 0"
+    "test": "xo && lab --timeout 0"
   },
   "repository": {
     "type": "git",
@@ -36,7 +36,6 @@
   },
   "devDependencies": {
     "lab": "^12.0.0",
-    "markdownlint-cli": "^0.2.0",
     "xo": "^0.17.0",
     "yeoman-assert": "^2.1.1",
     "yeoman-test": "^1.0.0"
