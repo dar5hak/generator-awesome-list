@@ -31,7 +31,8 @@ module.exports = Generator.extend({
 			const done = this.async();
 			this.prompt({
 				name: 'description',
-				message: 'A short description'
+				message: 'A short description',
+				default: 'A curated list of <insert awesome stuff>'
 			}, answer => {
 				this.props.description = answer.description;
 				done();
