@@ -2,8 +2,8 @@ const gitConfig = require('git-config');
 const Generator = require('yeoman-generator');
 const titleCase = require('title-case');
 
-module.exports = Generator.extend({
-	initializing: function () {
+class GeneratorAwesomeList extends Generator {
+	initializing() {
 		this.props = {};
 		this.defaults = {
 			title: titleCase(this.appname)
@@ -14,56 +14,37 @@ module.exports = Generator.extend({
 				this.defaults.email = config.user.email || null;
 			}
 		});
-	},
-	prompting: {
-		title: function () {
-			const done = this.async();
-			this.prompt({
-				name: 'title',
-				message: 'The name of your awesome list',
-				default: this.defaults.title
-			}, answer => {
-				this.props.title = answer.title;
-				done();
-			});
-		},
-		description: function () {
-			const done = this.async();
-			this.prompt({
-				name: 'description',
-				message: 'A short description',
-				default: 'A curated list of <insert awesome stuff>'
-			}, answer => {
-				this.props.description = answer.description;
-				done();
-			});
-		},
-		username: function () {
-			const done = this.async();
-			this.prompt({
-				name: 'username',
-				message: 'Your name',
-				default: this.defaults.username,
-				store: true
-			}, answer => {
-				this.props.username = answer.username;
-				done();
-			});
-		},
-		email: function () {
-			const done = this.async();
-			this.prompt({
-				name: 'email',
-				message: 'Your email',
-				default: this.defaults.email,
-				store: true
-			}, answer => {
-				this.props.email = answer.email;
-				done();
-			});
-		}
-	},
-	writing: function () {
+	}
+
+	prompting() {
+		return this.prompt([{
+			type: 'input',
+			name: 'title',
+			message: 'The name of your awesome list',
+			default: this.defaults.title
+		}, {
+			type: 'input',
+			name: 'description',
+			message: 'A short description',
+			default: 'A curated list of <insert awesome stuff>'
+		}, {
+			type: 'input',
+			name: 'username',
+			message: 'Your name',
+			default: this.defaults.username,
+			store: true
+		}, {
+			type: 'input',
+			name: 'email',
+			message: 'Your email',
+			default: this.defaults.email,
+			store: true
+		}]).then(answers => {
+			this.props = answers;
+		});
+	}
+
+	writing() {
 		this.fs.copyTpl(
 			this.templatePath('.gitattributes'),
 			this.destinationPath('.gitattributes'),
@@ -85,4 +66,6 @@ module.exports = Generator.extend({
 			this.props
 		);
 	}
-});
+}
+
+module.exports = GeneratorAwesomeList;
