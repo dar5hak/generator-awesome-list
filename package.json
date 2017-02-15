@@ -35,6 +35,7 @@
     "yeoman-generator": "^1.1.0"
   },
   "devDependencies": {
+    "awesome-lint": "^0.1.0",
     "lab": "^12.1.0",
     "xo": "^0.17.0",
     "yeoman-assert": "^3.0.0",

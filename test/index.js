@@ -1,6 +1,7 @@
 const path = require('path');
 const assert = require('yeoman-assert');
 const helpers = require('yeoman-test');
+const awesomeLint = require('awesome-lint');
 const Lab = require('lab');
 
 const lab = exports.lab = Lab.script();
@@ -48,4 +49,14 @@ lab.experiment('readme.md', () => {
 		assert.fileContent('readme.md', 'Awesomov Awesomovic');
 		done();
 	});
+});
+
+lab.test('lint', done => {
+	awesomeLint().then(vfile => {
+		if (vfile.messages.length === 0) {
+			done();
+		} else {
+			done(new Error(vfile.messages));
+		}
+	}).catch(done);	// If there's an error, pass it to `done()`
 });
