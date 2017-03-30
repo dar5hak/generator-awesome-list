@@ -4,7 +4,8 @@ const helpers = require('yeoman-test');
 const awesomeLint = require('awesome-lint');
 const Lab = require('lab');
 
-const lab = exports.lab = Lab.script();
+const lab = Lab.script();
+exports.lab = lab;
 
 lab.before(done => {
 	helpers.run(path.join(__dirname, '../app'))
