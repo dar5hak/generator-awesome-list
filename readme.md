@@ -1,5 +1,7 @@
 # generator-awesome-list
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dar5hak/generator-awesome-list.svg)](https://greenkeeper.io/)
+
 > Yeoman generator for GitHub [awesome lists](https://github.com/sindresorhus/awesome) :sunglasses:
 
 [![build]( 	https://img.shields.io/travis/dar5hak/generator-awesome-list.svg?style=flat-square)](https://travis-ci.org/dar5hak/generator-awesome-list)
