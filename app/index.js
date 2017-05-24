@@ -1,3 +1,4 @@
+'use strict';
 const gitConfig = require('git-config');
 const Generator = require('yeoman-generator');
 const titleCase = require('title-case');
