@@ -208,19 +208,20 @@ attach-ware@^2.0.0:
   dependencies:
     unherit "^1.0.0"
 
-awesome-lint@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.1.0.tgz#81b4124482bb6abfe55c0c3bdb5c90a763ec100c"
+awesome-lint@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/awesome-lint/-/awesome-lint-0.2.0.tgz#ed61cb53d4651885e6e7ed4c9df42b5127fe367c"
   dependencies:
     globby "^6.0.0"
     meow "^3.7.0"
-    pify "^2.3.0"
+    pify "^3.0.0"
     remark "^5.0.1"
-    remark-lint "^4.0.2"
+    remark-lint "^4.1.0"
     remark-lint-no-empty-sections "^1.0.0"
     remark-lint-no-url-trailing-slash "^2.0.0"
+    to-vfile "^1.0.0"
     unist-util-visit "^1.1.0"
-    vfile-reporter "^2.1.0"
+    vfile-reporter-pretty "^0.1.0"
 
 aws-sign2@~0.6.0:
   version "0.6.0"
@@ -989,6 +990,17 @@ eslint-config-hapi@10.x.x:
 eslint-config-xo@^0.18.0:
   version "0.18.1"
   resolved "https://registry.yarnpkg.com/eslint-config-xo/-/eslint-config-xo-0.18.1.tgz#f3bc873b33b2c82513d881eacb2ee3428407ad33"
+
+eslint-formatter-pretty@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/eslint-formatter-pretty/-/eslint-formatter-pretty-0.2.2.tgz#108744f5dc9eb6cd218cb6d6ba3a133dd0b27420"
+  dependencies:
+    ansi-escapes "^1.4.0"
+    chalk "^1.1.3"
+    log-symbols "^1.0.2"
+    plur "^2.1.2"
+    repeating "^2.0.1"
+    string-width "^1.0.1"
 
 eslint-formatter-pretty@^1.0.0:
   version "1.1.0"
@@ -3125,7 +3137,7 @@ remark-lint-no-url-trailing-slash@^2.0.0:
     remark "^4.2.2"
     unist-util-visit "^1.0.0"
 
-remark-lint@^4.0.2:
+remark-lint@^4.1.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/remark-lint/-/remark-lint-4.2.0.tgz#958d11cb626d5fe9c3e378dd7af8c1bd6a122401"
   dependencies:
@@ -3235,7 +3247,7 @@ repeat-string@^1.5.0, repeat-string@^1.5.2, repeat-string@^1.5.4:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/repeat-string/-/repeat-string-1.6.1.tgz#8dcae470e1c88abc2d600fff4a776286da75e637"
 
-repeating@^2.0.0:
+repeating@^2.0.0, repeating@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/repeating/-/repeating-2.0.1.tgz#5214c53a926d3552707527fbab415dbc08d06dda"
   dependencies:
@@ -3975,6 +3987,13 @@ vfile-location@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/vfile-location/-/vfile-location-2.0.1.tgz#0bf8816f732b0f8bd902a56fda4c62c8e935dc52"
 
+vfile-reporter-pretty@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vfile-reporter-pretty/-/vfile-reporter-pretty-0.1.0.tgz#6eff9a347953f922878b38b35f2b9480d8c01c2d"
+  dependencies:
+    eslint-formatter-pretty "^0.2.2"
+    vfile-to-eslint "^0.1.0"
+
 vfile-reporter@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-1.5.0.tgz#21a7009bfe55e24df8ff432aa5bf6f6efa74e418"
@@ -3987,22 +4006,13 @@ vfile-reporter@^1.5.0:
     text-table "^0.2.0"
     vfile-sort "^1.0.0"
 
-vfile-reporter@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vfile-reporter/-/vfile-reporter-2.1.0.tgz#e492482a5d46ebb5bfd24cf11258ca689303ca8c"
-  dependencies:
-    chalk "^1.1.0"
-    log-symbols "^1.0.2"
-    plur "^2.0.0"
-    repeat-string "^1.5.0"
-    string-width "^1.0.0"
-    strip-ansi "^3.0.1"
-    text-table "^0.2.0"
-    vfile-sort "^1.0.0"
-
 vfile-sort@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/vfile-sort/-/vfile-sort-1.0.0.tgz#17ee491ba43e8951bb22913fcff32a7dc4d234d4"
+
+vfile-to-eslint@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/vfile-to-eslint/-/vfile-to-eslint-0.1.0.tgz#68a311244c68172d359a5dba89cecd4da37747c5"
 
 vfile@^1.0.0, vfile@^1.1.0:
   version "1.4.0"
