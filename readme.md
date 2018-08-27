@@ -5,7 +5,6 @@
 [![build]( 	https://img.shields.io/travis/dar5hak/generator-awesome-list.svg?style=flat-square)](https://travis-ci.org/dar5hak/generator-awesome-list)
 [![npm version](https://img.shields.io/npm/v/generator-awesome-list.svg?style=flat-square)](https://www.npmjs.com/package/generator-awesome-list)
 [![license](https://img.shields.io/npm/l/generator-awesome-list.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
-[![bitHound](https://img.shields.io/bithound/code/github/dar5hak/generator-awesome-list.svg?style=flat-square)](https://www.bithound.io/github/dar5hak/generator-awesome-list)
 
 ## Usage
 
