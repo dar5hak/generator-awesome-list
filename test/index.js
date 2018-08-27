@@ -10,7 +10,8 @@ exports.lab = lab;
 
 lab.before(() => {
 	return new Promise(resolve => {
-		helpers.run(path.join(__dirname, '../app'))
+		helpers
+			.run(path.join(__dirname, '../app'))
 			.withPrompts({
 				title: 'Awesome Awesomeness',
 				description: 'A curated list of awesomeness',
@@ -67,6 +68,7 @@ lab.experiment('readme.md', () => {
 
 lab.test('lint', () => {
 	return awesomeLint().then(vfile => {
-		nodeAssert.strictEqual(vfile.messages.length, 0);
+		const messages = vfile.messages.filter(msg => msg.ruleId !== 'awesome/git-repo-age');
+		nodeAssert.strictEqual(messages.length, 0);
 	});
 });
