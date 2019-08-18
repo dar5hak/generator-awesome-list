@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/dar5hak/generator-awesome-list#readme",
   "dependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.2.0",
     "git-config": "0.0.7",
     "title-case": "^2.1.0",
     "yeoman-generator": "^4.0.1"
