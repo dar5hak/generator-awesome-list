@@ -32,7 +32,7 @@
   "dependencies": {
     "eslint": "^5.16.0",
     "git-config": "0.0.7",
-    "title-case": "^2.1.0",
+    "title-case": "^3.0.0",
     "yeoman-generator": "^4.0.1"
   },
   "devDependencies": {
