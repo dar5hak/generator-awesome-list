@@ -6,7 +6,9 @@
     "app"
   ],
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -33,7 +35,8 @@
     "eslint": "^5.16.0",
     "git-config": "0.0.7",
     "title-case": "^2.1.0",
-    "yeoman-generator": "^4.0.1"
+    "yeoman-generator": "^4.0.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "ava": "^3.0.0",
@@ -41,5 +44,6 @@
     "xo": "^0.25.0",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^2.0.0"
-  }
+  },
+  "snyk": true
 }
