@@ -47,6 +47,6 @@ test('readme contains username', t => {
 
 test('complies to awesome-lint', async t => {
 	const vfile = await awesomeLint();
-	const messages = vfile.messages.filter(msg => msg.ruleId !== 'awesome/git-repo-age');
+	const messages = vfile.messages.filter(message => message.ruleId !== 'awesome/git-repo-age');
 	t.is(messages.length, 0);
 });

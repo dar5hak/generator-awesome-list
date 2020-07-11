@@ -1,3 +1,4 @@
+/* eslint-disable promise/prefer-await-to-then */
 'use strict';
 const gitConfig = require('git-config');
 const Generator = require('yeoman-generator');
