@@ -17,9 +17,9 @@ yo awesome-list
 
 This stuff is heavily stolen from [Sindre Sorhus](https://github.com/sindresorhus)'s lists.
 
-- `readme.md` with a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license
-- `code-of-conduct.md` based on [Contributor Covenant](http://contributor-covenant.org)
+- `readme.md` skeleton
 - `contributing.md` skeleton
+- `code-of-conduct.md` based on [Contributor Covenant](http://contributor-covenant.org)
 - a simple `.gitattributes` to make contributing easier
 
 ![Screenshot of generator running](screenshot.png)
