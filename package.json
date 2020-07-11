@@ -40,8 +40,8 @@
   },
   "devDependencies": {
     "ava": "^3.0.0",
-    "awesome-lint": "^0.9.1",
-    "xo": "^0.25.0",
+    "awesome-lint": "^0.13.0",
+    "xo": "^0.32.1",
     "yeoman-assert": "^3.1.1",
     "yeoman-test": "^2.0.0"
   },
