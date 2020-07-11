@@ -2,7 +2,7 @@
 'use strict';
 const gitConfig = require('git-config');
 const Generator = require('yeoman-generator');
-const titleCase = require('title-case');
+const {titleCase} = require('title-case');
 
 class GeneratorAwesomeList extends Generator {
 	initializing() {

@@ -35,7 +35,7 @@
     "eslint": "^7.4.0",
     "git-config": "0.0.7",
     "snyk": "^1.361.3",
-    "title-case": "^2.1.0",
+    "title-case": "^3.0.2",
     "yeoman-generator": "^4.11.0"
   },
   "devDependencies": {
