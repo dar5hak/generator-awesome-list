@@ -12,7 +12,6 @@ class GeneratorAwesomeList extends Generator {
 		};
 		gitConfig((err, config) => {
 			if (!err && config.user) {
-				this.defaults.username = config.user.name || null;
 				this.defaults.email = config.user.email || null;
 			}
 		});
@@ -29,12 +28,6 @@ class GeneratorAwesomeList extends Generator {
 			name: 'description',
 			message: 'A short description',
 			default: 'A curated list of <insert awesome stuff>'
-		}, {
-			type: 'input',
-			name: 'username',
-			message: 'Your name',
-			default: this.defaults.username,
-			store: true
 		}, {
 			type: 'input',
 			name: 'email',

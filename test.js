@@ -40,11 +40,6 @@ test('readme contains description', t => {
 	t.pass();
 });
 
-test('readme contains username', t => {
-	yeomanAssert.fileContent('readme.md', 'Awesomov Awesomovic');
-	t.pass();
-});
-
 test('complies to awesome-lint', async t => {
 	const vfile = await awesomeLint();
 	const messages = vfile.messages.filter(message => message.ruleId !== 'awesome/git-repo-age');
