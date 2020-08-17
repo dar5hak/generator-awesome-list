@@ -34,16 +34,16 @@
   "dependencies": {
     "eslint": "^7.7.0",
     "git-config": "0.0.7",
-    "snyk": "^1.374.0",
+    "snyk": "^1.377.0",
     "title-case": "^3.0.2",
     "yeoman-generator": "^4.11.0"
   },
   "devDependencies": {
-    "ava": "^3.10.1",
+    "ava": "^3.11.1",
     "awesome-lint": "^0.13.0",
-    "xo": "^0.32.1",
+    "xo": "^0.33.0",
     "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^2.6.0"
+    "yeoman-test": "^2.7.0"
   },
   "snyk": true
 }
