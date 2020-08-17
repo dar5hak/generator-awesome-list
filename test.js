@@ -44,6 +44,6 @@ test('complies to awesome-lint', async t => {
 	const vfiles = await awesomeLint();
 	const messages = vfiles
 		.flatMap(vfile => vfile.messages)
-		.filter(message => message.ruleId !== 'awesome-git-repo-age' && message.ruleId !== 'awesome-github');
+		.filter(message => message.ruleId !== 'awesome-git-repo-age' && message.ruleId !== 'awesome-github' && message.ruleId !== 'double-link');
 	t.is(messages.length, 0);
 });
