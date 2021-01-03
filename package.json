@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/dar5hak/generator-awesome-list#readme",
   "dependencies": {
-    "eslint": "^7.16.0",
+    "eslint": "^7.17.0",
     "git-config": "0.0.7",
     "snyk": "^1.431.4",
     "title-case": "^3.0.3",
