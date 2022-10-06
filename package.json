@@ -43,7 +43,7 @@
     "awesome-lint": "^0.18.0",
     "xo": "^0.33.0",
     "yeoman-assert": "^3.1.1",
-    "yeoman-test": "^3.0.0"
+    "yeoman-test": "^6.3.0"
   },
   "snyk": true
 }
