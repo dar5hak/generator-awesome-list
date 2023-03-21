@@ -13,6 +13,22 @@ npm install -g yo generator-awesome-list
 yo awesome-list
 ```
 
+### Using Docker
+
+#### Build the Docker image
+
+```sh
+docker build . -t generator-awesome-list
+```
+
+#### Create and run the container based on above image
+
+The following does the same as the non-container command `yo awesome-list`.
+
+```sh
+docker run --rm -it -v ${PWD}:/app  generator-awesome-list
+```
+
 ## What's included?
 
 This stuff is heavily stolen from [Sindre Sorhus](https://github.com/sindresorhus)'s lists.
