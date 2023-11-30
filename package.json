@@ -36,7 +36,7 @@
     "git-config": "0.0.7",
     "snyk": "^1.1064.0",
     "title-case": "^3.0.3",
-    "yeoman-generator": "^5.0.0"
+    "yeoman-generator": "^6.0.0"
   },
   "devDependencies": {
     "ava": "^3.11.1",
