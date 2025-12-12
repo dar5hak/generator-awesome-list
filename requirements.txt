@@ -1,2 +1,2 @@
-pyTelegramBotAPI
+pyTelegramBotAPI, 8182617462:AAF4muztgV1kAAnYY0d27WqGaruupe2-KGE
 python-dotenv
