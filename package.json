@@ -40,8 +40,8 @@
     "awesome-lint": "^2.2.2",
     "xo": "^1.2.3",
     "yeoman-assert": "^3.1.1",
-    "yeoman-environment": "^4.0.0",
-    "yeoman-test": "^9.0.0"
+    "yeoman-environment": "^6.0.0",
+    "yeoman-test": "^11.3.1"
   },
   "ava": {
     "workerThreads": false
